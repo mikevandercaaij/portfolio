@@ -1,0 +1,61 @@
+export const HomeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Over mij",
+  headLine: "Introductie",
+  description:
+    "Hallo ik heet Mike van der Caaij en ben 20 jaar. Mijn karakter is te beschrijven als: sympathiek, verantwoordelijk, stressbestendig en flexibel. Waar ik zeer gepassioneerd over ben, is Front end development. Aangezien ik het erg leuk vind om van een ontwerp een daadwerkelijk product te maken.",
+  buttonLabel: "Button",
+  imgStart: false,
+  img: require("../../images/svg-9.svg"),
+  alt: "car",
+  dark: true,
+  primary: true,
+  darkText: false,
+  displayBtn: false,
+  href: "/",
+};
+
+export const HomeObjTwo = {
+  id: "projects",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Projecten",
+  headLine: "Afgeronde projecten",
+  description:
+    "Klik op de onderstaan knop om mijn afgeronde projecten te bekijken (GitHub).",
+  buttonLabel: "Bekijk mijn projecten",
+  imgStart: true,
+  img: require("../../images/svg-6.svg"),
+  alt: "project",
+  dark: false,
+  primary: false,
+  darkText: true,
+  href: "//github.com/mikevandercaaij",
+  displayBtn: true,
+  target: "_blank",
+};
+
+export const HomeObjThree = {
+  id: "cv",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: true,
+  topLine: "CV",
+  headLine: "Curriculum Vitae",
+  description:
+    "Mocht u na het bekijken van mijn website en projecten geïnteresseerd geraakt zijn. Kunt u hieronder mijn cv bekijken.",
+  buttonLabel: "Bekijk mijn cv",
+  imgStart: false,
+  img: require("../../images/svg-5.svg"),
+  alt: "cv",
+  dark: false,
+  primary: false,
+  darkText: true,
+  href: "//www.mikevandercaaij.nl/img/cv.jpg",
+  target: "_blank",
+  displayBtn: true,
+};
