@@ -16,7 +16,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Mike van der Caaij</HeroH1>
-                <HeroP>Welcome to my website. On here you'll find some information about me, my socials and you'll also be guided towards my lists of projects that I've worked on.</HeroP>
+                <HeroP>Welcome to my website. On here you'll find some information about me, my socials and you'll also be guided towards all of projects that I've worked on.</HeroP>
                 <HeroBtnWrapper>
                     <ButtonHero to="about" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
                         Read some about me {hover ? <ArrowForward /> : <ArrowRight />}
