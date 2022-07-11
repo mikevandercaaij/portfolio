@@ -58,7 +58,7 @@ const Footer = () => {
                         <SocialLogo to="/" onClick={toggleHome}>
                             MVDC
                         </SocialLogo>
-                        <WebsiteRights>&copy; 2022 All rights reserved.</WebsiteRights>
+                        <WebsiteRights>&copy; {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="//www.instagram.com/mike_caaij/" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
