@@ -1,7 +1,22 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
-import { FooterContainer, FooterLink, FooterLinkItems, FooterLinksContainer, FooterLinkScroll, FooterLinksWrapper, FooterLinkTitle, FooterWrap, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from "./FooterElements";
+import {
+    FooterContainer,
+    FooterLink,
+    FooterLinkItems,
+    FooterLinksContainer,
+    FooterLinkScroll,
+    FooterLinksWrapper,
+    FooterLinkTitle,
+    FooterWrap,
+    SocialIconLink,
+    SocialIcons,
+    SocialLogo,
+    SocialMedia,
+    SocialMediaWrap,
+    WebsiteRights,
+} from "./FooterElements";
 
 const Footer = () => {
     const toggleHome = () => {
@@ -15,13 +30,34 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Navigation</FooterLinkTitle>
-                            <FooterLinkScroll to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
+                            <FooterLinkScroll
+                                to="about"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact="true"
+                                offset={-80}
+                            >
                                 About me
                             </FooterLinkScroll>
-                            <FooterLinkScroll to="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
+                            <FooterLinkScroll
+                                to="projects"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact="true"
+                                offset={-80}
+                            >
                                 Projects
                             </FooterLinkScroll>
-                            <FooterLinkScroll to="socials" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
+                            <FooterLinkScroll
+                                to="socials"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact="true"
+                                offset={-80}
+                            >
                                 Socials
                             </FooterLinkScroll>
                             <FooterLinkScroll to="cv" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
@@ -35,23 +71,6 @@ const Footer = () => {
                             <FooterLink href="//www.github.com/mikevandercaaij/">GitHub</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Credits</FooterLinkTitle>
-                            <FooterLink href="//www.google.com" target="_blank">
-                                Google
-                            </FooterLink>
-                            <FooterLink href="//www.pexels.com" target="_blank">
-                                Pexels
-                            </FooterLink>
-                            <FooterLink href="//undraw.co/illustrations" target="_blank">
-                                unDraw
-                            </FooterLink>
-                            <FooterLink href="//www.stackoverflow.com/" target="_blank">
-                                Stack Overflow
-                            </FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
@@ -60,10 +79,18 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights>&copy; {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.instagram.com/mike_caaij/" target="_blank" aria-label="Instagram">
+                            <SocialIconLink
+                                href="//www.instagram.com/mike_caaij/"
+                                target="_blank"
+                                aria-label="Instagram"
+                            >
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href="//www.facebook.com/mike.vandercaaij/" target="_blank" aria-label="Facebook">
+                            <SocialIconLink
+                                href="//www.facebook.com/mike.vandercaaij/"
+                                target="_blank"
+                                aria-label="Facebook"
+                            >
                                 <FaFacebook />
                             </SocialIconLink>
                             <SocialIconLink href="//www.youtube.com" target="_blank" aria-label="Youtube">
@@ -72,7 +99,11 @@ const Footer = () => {
                             <SocialIconLink href="//www.twitter.com" target="_blank" aria-label="Twitter">
                                 <FaTwitter />
                             </SocialIconLink>
-                            <SocialIconLink href="//www.linkedin.com/in/mike-van-der-caaij-7a2b36194/" target="_blank" aria-label="Linkedin">
+                            <SocialIconLink
+                                href="//www.linkedin.com/in/mike-van-der-caaij-7a2b36194/"
+                                target="_blank"
+                                aria-label="Linkedin"
+                            >
                                 <FaLinkedin />
                             </SocialIconLink>
                         </SocialIcons>
